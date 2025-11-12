@@ -116,11 +116,9 @@ dominating-set-ga/
 
 ```
 ============================================
-  DOMINATING SET PROBLEM
-  Genetic Algorithm Solution
+DOMINATING SET PROBLEM - GENETIC ALGORITHM
 ============================================
 
-...
 
 Initializing graph with 10 vertices and 15 edges...
 Graph structure:
