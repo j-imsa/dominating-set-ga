@@ -55,7 +55,6 @@ One possible dominating set: {2, 5} (size = 2)
 
 ## 🏗️ Project Structure
 ```
-
 dominating-set-ga/
 ├── src/
 │   └── main/
@@ -63,25 +62,26 @@ dominating-set-ga/
 │           └── com/
 │               └── genetic/
 │                   └── dominatingset/
-│                       ├── model/              # Data structures
+│                       ├── model/                      # Data structures
 │                       │   ├── Graph.java
 │                       │   ├── Individual.java
 │                       │   └── Population.java
-│                       ├── algorithm/          # GA components
+│                       ├── algorithm/                  # GA components
 │                       │   ├── GeneticAlgorithm.java
 │                       │   ├── FitnessEvaluator.java
 │                       │   ├── SelectionOperator.java
 │                       │   ├── CrossoverOperator.java
 │                       │   └── MutationOperator.java
-│                       ├── util/               # Helper classes
+│                       ├── util/                       # Helper classes
 │                       │   ├── GraphGenerator.java
 │                       │   └── ResultLogger.java
-│                       └── Main.java           # Entry point
-├── results/                                    # Output files
-│   └── output.txt
-├── Report.pdf                                  # LaTeX report (compiled)
-├── references.bib                              # Bibliography
-└── README.md                                   # This file
+│                       └── Main.java                   # Entry point
+├── results/                                            # Output files
+│   ├── output.txt
+│   └── output.csv
+├── Report.pdf                                          # LaTeX report (compiled)
+├── references.bib                                      # Bibliography
+└── README.md                                           # This file
 ```
 ## 🚀 Quick Start
 
@@ -116,8 +116,11 @@ dominating-set-ga/
 
 ```
 ============================================
-Dominating Set Problem - Genetic Algorithm
+  DOMINATING SET PROBLEM
+  Genetic Algorithm Solution
 ============================================
+
+...
 
 Initializing graph with 10 vertices and 15 edges...
 Graph structure:
@@ -209,7 +212,7 @@ Typical results on a medium-sized graph (30 vertices):
 
 ### Modify Algorithm Parameters
 
-Edit `Main.java`:
+Edit `com.genetic.dominatingset.Main.java`:
 
 ```java
 // Adjust these parameters
@@ -272,5 +275,5 @@ This project is created for academic purposes as part of a university course ass
 
 This implementation is original work created for educational purposes. The algorithms and techniques are based on established literature in evolutionary computation and graph theory.
 
-**Last Updated:** November 11, 2025
+**Last Updated:** November 12, 2025
 
