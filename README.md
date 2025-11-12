@@ -6,11 +6,11 @@ A Java implementation of a Genetic Algorithm to solve the Minimum Dominating Set
 
 This project implements a genetic algorithm to find minimum dominating sets in undirected graphs. A dominating set is a subset of vertices where every vertex not in the set has at least one neighbor in the set. Finding the minimum dominating set is an NP-complete problem with applications in wireless networks, social networks, and facility location problems.
 
-**Algorithm:** Genetic Algorithm (GA)  
-**Problem:** Minimum Dominating Set (MDS)  
-**Language:** Java 21  
-**Author:** Iman Salehi
-**Date:** November 2025
+- **Algorithm:** Genetic Algorithm (GA)  
+- **Problem:** Minimum Dominating Set (MDS)  
+- **Language:** Java 21  
+- **Author:** Iman Salehi
+- **Date:** November 2025
 
 ## 📚 Documentation
 
